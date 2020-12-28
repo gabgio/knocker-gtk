@@ -1,0 +1,36 @@
+- $Id: ChangeLog file for gtk-knocker version 0.6.6 - released on 31 March 2002
+-------------------------------------------------------------------------------
+
+31 March 2002
+  - gtk-knocker rwritten from scratch.
+  - GUI interface redesigned using GLADE.
+  - "Freeze" bug fixed. The GUI interface is no longer freezing during long
+    scans.
+  - Start / Stop scan buttons are now working properly.
+  - Logging the scan results to file is now possible.
+  - Application icon added. (If the WM supports it).
+  - Changed the gtk-knocker logo pic in the about window, again.
+
+1 August 2001
+  - Splitted the gtk-knocker.c windows source code in modules:
+    main_win.c, about_win.c
+  - The scan loop is now called by the gtk_timeout_add(...)
+    function. This however does not fix the "freeze bug".
+  - Added gtk-knocker header file (gtk-knocker.h).
+  - Added a splash_screen dialog box (dialogs.c)
+  - Added an error dialog box that is shown if a hostname cannot
+    be resolved (dialogs.c).(Scan is now aborted in this version).
+  - Added a "stop the scan" button. Thought this feature is not
+    yet implemented.
+  - Changed the gtk-knocker logo pic in the about window.
+
+15 July 2001
+  - Added a function in knocker_core.c to resolve hosts IP.
+  - Added the host IP address field to the interface.
+
+08 July 2001:
+  - Initial release.
+  
+
+  -- Gabriele Giorgetti
+	<g.gabriele@europe.com>

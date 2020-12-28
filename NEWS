@@ -1,0 +1,26 @@
+-- $Id: NEWS file for gtk-knocker version 0.6.6 - released on 31 March 2002
+-------------------------------------------------------------------------------
+
+  Most important changes and NEWS are in this file.
+  A detailed list of changes can be found in the ChangeLog file.
+
+gtk-knocker-0.6.6 (31 March 2002):
+  - gtk-knocker rwritten from scratch.
+  - GUI interface redesigned using GLADE.
+  - It is now possible to start and stop the scan properly.
+  - Logging the scan results to file is now possible.
+  - "Freeze" bug fixed.
+
+gtk-knocker-0.3.0 (1 August 2001):
+  Doh, see ChangeLog.
+
+gtk-knocker-0.2.0 (15 July 2001):
+  - Added the host IP address field to the interface.
+  - Added a function to resolve hosts IP's.
+
+gtk-knocker-0.1.0 (8 July 2001):
+  - Initial release.
+  
+
+  -- Gabriele Giorgetti
+	<g.gabriele@europe.com>
